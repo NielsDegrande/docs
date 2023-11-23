@@ -5,7 +5,7 @@
 - Engineering
 
   - [Infrastructure](engineering/infra.md)
-  - [Devops](engineering/devops.md)
+  - [DevOps](engineering/devops.md)
   - [Database](engineering/data.md)
 
 - Pipelines
