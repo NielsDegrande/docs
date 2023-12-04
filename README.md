@@ -8,6 +8,7 @@ This repository holds the technical documentation.
 
 ```shell
 python3 -m venv venv
+source venv/bin/activate
 make install_dev
 ```
 
