@@ -1,10 +1,8 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v4.6.0
     hooks:
       - id: check-added-large-files
-      - id: check-ast
-      - id: check-builtin-literals
       - id: check-byte-order-marker
       - id: check-case-conflict
       - id: check-executables-have-shebangs
@@ -20,7 +18,7 @@ repos:
       - id: sort-simple-yaml
       - id: trailing-whitespace
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.37.0
+    rev: v0.40.0
     hooks:
       - id: markdownlint
         args: ["--ignore", "docs/_*.md"]
@@ -28,5 +26,4 @@ repos:
     rev: v2.2.6
     hooks:
       - id: codespell
-        types_or: [ python, markdown ]
-        additional_dependencies: [ tomli ]
+        types_or: [markdown]
