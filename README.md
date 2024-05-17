@@ -6,13 +6,15 @@ This repository holds the technical documentation.
 
 ## Getting Started
 
+### Installation
+
 ```shell
 python3 -m venv venv
 source venv/bin/activate
 make install_dev
 ```
 
-## Run Locally
+### Run Locally
 
 Start a simple HTTP server:
 
