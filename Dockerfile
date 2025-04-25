@@ -1,4 +1,4 @@
-FROM python:3.12
+FROM python:3.13
 
 LABEL NAME=docs
 LABEL VERSION=1.0.0
